@@ -38,4 +38,4 @@ Please note that this theme is a **Work in Progress (WIP)**, developed solely in
 ---
 
 ## 🤝 Feedback & Support
-If you encounter any breaking bugs or have suggestions, feel free to open an **Issue** here on GitHub or reach out in our Discord community. Thank you for your support and patience!
+If you encounter any breaking bugs or have suggestions, feel free to open an **Issue** here on GitHub or reach out in my Discord @ygay. Thank you for your support and patience!
