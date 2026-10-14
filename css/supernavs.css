@@ -1,0 +1,35 @@
+@import url(../global.css);
+
+@font-face {
+    font-family: "Russo";
+    src: url(../fontFamily/RussoOne.ttf);
+    font-weight: 100;
+}
+
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI,
+._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI {
+    color: greenyellow !important;
+	text-shadow: 0 0px 2px goldenrod;
+}
+
+._3pofGqV0buiKAfMPEs3_82 {
+    background: linear-gradient(to bottom right, rebeccapurple, hotpink) !important;
+	border-radius: 0 0 6px 6px;
+}
+
+body {
+	font-family: "Russo";
+	font-weight: 100;
+)
+
+button,
+input,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+}
+
+._2jXHP0742MyApMUVUM8IFn._2uiDecKkKjAq7nimy3uLhG:hover {
+	background-color: #9918b1 !important;
+}

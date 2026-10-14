@@ -1,0 +1,119 @@
+@import url(../global.css);
+
+@font-face {
+    font-family: "Russo";
+    src: url(../fontFamily/RussoOne.ttf);
+    font-weight: 100;
+}
+
+/* Общие стили */
+.DialogInput_Wrapper > input.DialogInput {
+    background: rgb(0 0 0 / 62%);
+    color: white !important; /* белый текст в полях ввода */
+}
+
+.zhaKeChn9HPNSMtk0ami_ ._1e6tjguQEHdYIehM9aRmO5 {
+    background: #464d60;
+}
+
+/* Основной цвет текста - white! */
+._3B8wRA4H7e_oSksYNqpSPv._1B1XTNsfuwOaDPAkkr8M42 {
+    color: white !important; /* Яркий белый */
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8) !important; /* Улучшенная тень */
+    font-weight: 600 !important; /* Усиленное начертание */
+}
+
+._26v9mHAi56x63OwY-jxett {
+    color: rgba(255, 140, 0, 0.8) !important; /* Полупрозрачный white */
+}
+
+.contextMenuItem {
+    color: white !important; /* белый для пунктов меню */
+    text-shadow: 0 1px 2px rgba(0,0,0,0.7) !important;
+    transition: color 0.3s ease !important; /* Плавное изменение цвета */
+}
+
+.contextMenuItem:hover {
+    color: #ff8c00 !important; /* Яркий оттенок при наведении */
+    text-shadow: 0 0 5px rgba(255, 140, 0, 0.5) !important;
+}
+
+/* Фон меню */
+._2EstNjFIIZm_WUSKm5Wt7n._3pofGqV0buiKAfMPEs3_82,
+.DesktopUI .PP7LM0Ow1K5qkR8WElLpt,
+._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt,
+.GreenEnvelopeMenu,
+.PP7LM0Ow1K5qkR8WElLpt {
+	border-radius: 0 0 6px 6px;
+    background: radial-gradient(
+        circle at center, 
+        rebeccapurple, 
+        rgba(102, 51, 153, 0.85), 
+        greenyellow
+    );
+}
+
+/* Стили для текста и элементов меню */
+._1n7Wloe5jZ6fSuvV18NNWI {
+    color: white !important; /* Основной цвет */
+    text-shadow: 
+        0 1px 3px rgba(0,0,0,0.8),
+        0 0 5px rgba(0,0,0,0.5) !important;
+    transition: all 0.3s ease !important;
+    position: relative;
+    z-index: 1;
+}
+
+._1n7Wloe5jZ6fSuvV18NNWI:hover {
+    color: #ffd700 !important; /* Золотой при наведении */
+    background: rgba(90, 96, 105, 0.7) !important;
+    text-shadow: 
+        0 0 8px rgba(255, 215, 0, 0.7),
+        0 1px 3px rgba(0,0,0,0.8) !important;
+}
+
+._2jXHP0742MyApMUVUM8IFn._2uiDecKkKjAq7nimy3uLhG:hover {
+    color: #fff !important; /* Яркий белый */
+    background: rgba(90, 96, 105, 0.5) !important;
+}
+
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI, 
+._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI {
+    color: white !important;
+}
+
+/* Улучшение контраста для оранжевого текста */
+._3B8wRA4H7e_oSksYNqpSPv,
+.contextMenuItem,
+._1n7Wloe5jZ6fSuvV18NNWI {
+    /* Тёмная обводка для оранжевого текста */
+    text-shadow: 
+        1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        0 0 5px rgba(0,0,0,0.7) !important;
+}
+
+/* Для светлых участков фона */
+.PP7LM0Ow1K5qkR8WElLpt ._1n7Wloe5jZ6fSuvV18NNWI {
+    color: #cc5500 !important; /* Более тёмный оттенок оранжевого */
+    text-shadow: 0 1px 1px rgb(28 26 26), 0 0 3px rgb(0 0 0) !important;
+}
+
+body {
+	font-family: "Russo";
+	font-weight: 100;
+)
+
+button,
+input,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+}
+
+html.client_chat_frame body, html.web_chat_frame body {
+	background: rebeccapurple !important;
+}

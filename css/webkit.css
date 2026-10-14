@@ -1,0 +1,213 @@
+@import url(../global.css);
+
+@font-face {
+    font-family: "Russo";
+    src: url(../fontFamily/RussoOne.ttf);
+    font-weight: 300;
+}
+
+.responsive_page_template_content {
+    background: none !important;
+}
+
+.home_ctn.tab_container {
+    background: none !important;
+}
+
+body.v6 {
+    background: none !important;
+}
+
+.home_ctn.tab_container {
+    background: none !important;
+}
+
+.home_ctn.home_content_ctn.bottom_content {
+    display: none !important;
+}
+.small_footer {
+    display: none !important;
+}
+
+.responsive_page_content_overlay {
+    z-index: -1 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    background: url(../imgs/shopBG.jfif) no-repeat center center !important;
+    background-size: cover !important;
+}
+
+.responsive_page_content_overlay::before {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+}
+
+.apphub_background {
+    background: none !important;
+}
+
+body.v6 .page_content_ctn.dark {
+    background: none !important;
+}
+
+.game_page_background.game {
+    background: none !important;
+}
+
+.subSectionDesc {
+	color:#fff !important;
+}
+
+.apphub_ContentGuides .workshopItemCollection .workshopItemShortDesc {
+    color: #d5d5d5 !important;
+}
+
+.apphub_ContentGuides .workshopItemCollection .workshopItemTitle {
+	color: greenyellow !important;
+}
+
+.apphub_ContentGuides .workshopItemCollection:hover .workshopItemTitle {
+	color: darkorange !important;
+}
+
+body.profile_page, 
+body.profile_page * {
+    font-family: "Russo";
+	font-weight: 300;
+}
+
+@media (min-width: 910px) {
+    #game_highlights .highlight_ctn {
+        width: 100% !important;
+    }
+}
+
+.reviewer_hardware_container {
+	font-family: 'Russo';
+    font-size: 12px;
+	color: greenyellow;
+	background-color: rebeccapurple;
+    border-radius: 6px;
+}
+
+.review_box {
+	border-radius: 6px;
+	background: linear-gradient(60deg, rgb(110 47 131 / 30%) 5%, rgb(255 108 255 / 30%) 95%);
+}
+
+.review_box .content {
+	font-family: 'Russo';
+	color: white;
+	font-size: 12px;
+}
+
+.dselect_container .trigger {
+	border-radius: 6px;
+    color: greenyellow;
+	background-color: rebeccapurple;
+}
+
+button {
+    font-family: 'Russo' !important;
+}
+
+.review_box .vote_header {
+	background: rgb(0 0 0 / 27%);
+	border-radius: 6px;
+    line-height: 18px;
+}
+
+.review_box .header {
+	color: magenta;
+	background: rgb(0 0 0 / 32%);
+}
+
+.review_box .header .review_award_count {
+	color: magenta;
+}
+
+.pagebtn, a.pagebtn, .page_current, .pagelink {
+	border-radius: 6px;
+}
+
+body, body._2LxgdMcpWJRjkxZKbmeEEb {
+	font-family: 'Russo' !important;
+}
+
+.review_box .leftcol img {
+	border-radius: 6px;
+}
+
+.review_box .vote_header .title {
+	font-family: 'Russo' !important;
+}
+
+.pagebtn:not(.disabled):hover, a.pagebtn:not(.disabled):hover, .pagelink:hover {
+	background-color: rebeccapurple;
+}
+
+.early_access_review {
+	background-color: darkmagenta;
+    border-radius: 6px;
+    border: 1px solid magenta;
+	color: greenyellow;
+	font-family: 'Russo' !important;
+}
+
+div.bb_h1, .bb_wysiwyg h1 {
+	color: darkorchid;
+}
+
+span.bb_spoiler {
+	color: darkorchid;
+    background-color: darkorchid;
+    border-radius: 6px;
+}
+
+.btnv6_blue_hoverfade {
+	color: greenyellow !important;
+    background: rgb(245 103 213 / 20%);
+	border-radius: 6px;
+}
+
+.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+	background: linear-gradient(to top, darkmagenta 5%, rebeccapurple 95%);
+}
+
+.ds_flag.ds_owned_flag {
+	background: url("data:image/svg+xml,%3Csvg width='11' height='10' viewBox='0 0 11 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1' y='1' width='8' height='2' fill='%23111111'/%3E%3Crect x='1' y='4' width='8' height='2' fill='%23111111'/%3E%3Crect x='1' y='7' width='8' height='2' fill='%23111111'/%3E%3C/svg%3E%0A") no-repeat 4px 4px rebeccapurple;
+}
+
+.ds_flag {
+	color: greenyellow;
+	padding: 0 6px 0 18px;
+	border-radius: 0 6px 6px 0;
+}
+
+.sectionTab.active {
+	border-bottom: 3px solid greenyellow;
+}
+
+.gameListRowItemName {
+	font-family: 'Russo';
+}
+
+.profile_small_header_texture {
+	background: rgb(64 9 69 / 50%);
+    border-radius: 0 0 6px 6px;
+}
+
+body {
+	background: rebeccapurple;
+}
+
+#rightContents .box {
+	border-radius: 6px;
+}

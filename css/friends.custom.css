@@ -1,0 +1,397 @@
+@import url(../global.css);
+
+@font-face {
+    font-family: "Russo";
+    src: url(../fontFamily/RussoOne.ttf);
+    font-weight: 100;
+}
+
+body {
+	font-family: 'Russo';
+}
+
+.friendListHeaderContainer {
+    background-color: hotpink;
+	box-shadow: none;
+}
+
+.offline .nOdcT-MoOaXGePXLyPe0H {
+    color: lawngreen;
+}
+
+.online .nOdcT-MoOaXGePXLyPe0H {
+    color: greenyellow;
+}
+
+.online ._2Ri005Wg_uXDTa71kdRbcN,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: lawngreen;
+}
+
+:not(.friendInviteContainer) .online .ContextMenuButton .SVGIcon_DownArrowContextMenu {
+    fill: #ac4c4c;
+}
+
+.offline ._2Ri005Wg_uXDTa71kdRbcN,
+.offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a,
+.offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover,
+.offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active,
+.offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: var(--nav-text-color);
+}
+
+.recentChatsGroup .friendGroup .groupName,
+.friendGroup.taggedGroup .groupName,
+.friendGroup.gameGroup .groupName {
+    color: var(--icon-color);
+}
+
+.friendsui-container .SVGIcon_PlusCircle {
+    stroke: var(--text-color-dark);
+}
+
+.friendlistListContainer {
+    background: rebeccapurple;
+}
+
+.ingame .nOdcT-MoOaXGePXLyPe0H {
+    color: var(--user-ingame-color);
+}
+
+.ingame.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN,
+.ingame ._2Ri005Wg_uXDTa71kdRbcN,
+.ingame ._2Ri005Wg_uXDTa71kdRbcN a,
+.ingame ._2Ri005Wg_uXDTa71kdRbcN a:hover,
+.ingame ._2Ri005Wg_uXDTa71kdRbcN a:active,
+.ingame ._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: #337883;
+}
+
+.friendListFooter {
+    background: purple;
+}
+
+.chatRoomListContainer {
+    background: darkslateblue;
+}
+
+.ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName {
+    color: darkorange;
+}
+
+.activeTab {
+    background: greenyellow;
+	box-shadow:none;
+}
+
+.friendsListSectionTitle {
+    background: lightcoral;
+}
+
+.titleBarContainer.ChatTabs {
+    background: purple;
+}
+
+._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ {
+    background: rebeccapurple;
+	border-radius: 6px 6px 0 0;
+}
+
+.chatDialogs {
+    background: none;
+}
+
+.chatWindow {
+    background: lightpink;
+}
+
+.inviteAnotherFriendButton {
+    background: #dcf0ff;
+}
+
+.chatWindow .chatEntry {
+    background: darkslateblue;
+}
+
+._3Ule3rolhZJiBN4yNNtk1s {
+    box-shadow: none;
+    background: var(--text-input-bg-color);
+}
+
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
+    background: none !important;
+    border: none;
+}
+
+.RVIs84dAE6wHcjH9tkinc {
+    border: 1px solid var(--user-ingame-color);
+    background: var(--bg-color-dark-blue) !important;
+}
+
+.RVIs84dAE6wHcjH9tkinc:hover {
+    background: var(--main-bg-color) !important;
+}
+
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN,
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a,
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover,
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active,
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited,
+.ingame._1BbOegz8bYL7iPzgYpOgQI ._2Ri005Wg_uXDTa71kdRbcN {
+    color: #294d52;
+}
+
+.playerNameQuickAccessContainer .playerNicknameBracket {
+    color: #337883;
+}
+
+.playerNicknameBracket {
+    color: var(--nav-text-color);
+}
+
+._3XEmWmfQy7gbYJ4KJ1N9tp {
+    color: #337883;
+}
+
+.quickAccessFriend .clanName {
+    color: #006cff;
+}
+
+.friend.online {
+    color: greenyellow;
+}
+
+._1DsumfIa3MlkzUV9EXY5W9.in-game ._2n0EiKMGRP-r_BI5tDtttu {
+    color: #256ad1;
+}
+
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName,
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
+    color: #486c68;
+}
+
+/*chat文字样式*/
+.msgText {
+    color: hotpink;
+    display: inline-block;
+    background: purple;
+    padding: 5px 10px;
+    border-radius: 13px;
+    line-height: normal;
+    font-size: 18px;
+}
+
+.ChatSpeaker.ChatRoomSpeaker.SpeakerLineBreak.isCurrentUser {
+    display: none;
+    /* 隐藏自己的信息*/
+}
+
+.MultiUserChat .msg:not(.ChatMsgSlashEmote) {
+    margin-top: 10px;
+}
+
+.MultiUserChat .isCurrentUser {
+    text-align: right;
+}
+
+.MultiUserChat .isCurrentUser img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+}
+
+.MultiUserChat .isCurrentUser .msgText {
+    background: rebeccapurple;
+	color: greenyellow;
+}
+
+._113iuw_HlE_qSgt9cGWCSv {
+    color: #14336e;
+}
+
+.OneOnOneVoiceRoomControls {
+    background: #d1ffc4;
+}
+
+._1G1ACDfp4yn4cUO1xY7_d3 {
+    color: var(--nav-text-color);
+}
+
+._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG {
+    background: var(--main-bg-color);
+}
+
+._3qYm9oxf8MdyvQDJgbfCrF:hover {
+    background-color: #d1ffc4;
+}
+
+._2m5YDddCyVhilOuWH-bTC1 {
+    color: var(--user-online-color);
+}
+
+.isCurrentUser ._2m5YDddCyVhilOuWH-bTC1 {
+    color: #08ff14;
+}
+
+._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG ._2ovvDFSsxzUoYuqzJsxecQ:hover {
+    color: #b3f5d1;
+}
+
+._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG ._2ovvDFSsxzUoYuqzJsxecQ {
+    color: #fff;
+}
+
+._1KPraihJAKiBwLJWmOlju2 {
+    color: var(--user-ingame-color);
+}
+
+.VoiceToggle {
+    background: linear-gradient(to bottom right, var(--voice-btn-color-star), var(--voice-btn-color-end)) !important;
+}
+
+.VoiceToggle.Inactive:hover {
+    background: linear-gradient(to bottom right, deeppink, mediumpurple) !important;
+}
+
+.GreenEnvelopeMenu,
+.PP7LM0Ow1K5qkR8WElLpt {
+    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
+}
+
+.EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf {
+    background: var(--bg-color-light-gray) !important;
+    color: var(--bg-color-dark-blue) !important;
+}
+
+.EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf:hover,
+.EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf:focus {
+    background: var(--bg-color-dark-blue) !important;
+    color: #fff !important;
+}
+
+._1n7Wloe5jZ6fSuvV18NNWI {
+    color: #000;
+}
+
+._1n7Wloe5jZ6fSuvV18NNWI:hover {
+    background: var(--bg-color-dark-blue);
+}
+
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW SVG,
+.RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i SVG {
+    color: var(--bg-color-light-gray);
+}
+
+.friendsui-container .SVGIcon_TextRoom,
+.friendsui-container .SVGIcon_Button.SVGIcon_TextRoom,
+.friendsui-container .SVGIcon_VoiceRoom,
+.friendsui-container .SVGIcon_Button.SVGIcon_VoiceRoom {
+    color: var(--bg-color-light-gray);
+}
+
+/*chat页面 chat与好友选项卡的分割线*/
+.chatWindow .chatHeader {
+    background: greenyellow !important;
+}
+
+/*隐藏chat页面阴影*/
+/*top*/
+._1osHa9KHOmdCDNrA232z4N {
+    background: none;
+}
+
+/*bottom*/
+._2OoTJwlWvzvAysWOOEQaXS {
+    background: none;
+
+}
+
+/*当input框键入时改变的颜色*/
+.RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):focus .SVGIcon_Button.SVGIcon_Submit path, .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):hover .SVGIcon_Button.SVGIcon_Submit path, .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) .SVGIcon_Button.SVGIcon_Submit path {
+    fill: #72dbff;
+}
+
+/*chat滚动块*/
+.chatHistoryScroll {
+    /*margin-top: 40px;*/
+    padding-top:40px ;
+}
+
+.msg.isCurrentUser.ChatMessageErrorSending {
+    /*频繁发送警告信息*/
+    background: none;
+}
+
+/*滚动到底部*/
+.ScrollToBottomButton > span {
+    background: #cde2f1 !important;
+}
+
+.chatImageContainer.parentSelector {
+    background: none;
+}
+
+.chatFileUploadPreviewContainer{
+    background: var(--friend-list-bg-color);
+}
+
+/*两项上传图片卡片*/
+
+.chatFileUploadProgressContainer{
+    background: var(--friend-list-bg-color);
+}
+
+/*鼠标hover到用户头像上后*/
+.quickAccessFriends .favoriteElement:hover .friend .playerName{
+    color: #000;
+}
+.quickAccessFriends .friend.ingame{
+    color: #99cd5b;
+}
+
+.chatImageContainer img{
+    /*调整图片到对的位置*/
+    position: relative;
+    transform:translateY(-100%);
+}
+
+.MultiUserChat .isCurrentUser img{
+    /*表情的msgText*/
+    display: inline-block;
+}
+
+.UA15KlVbtDSJkqSpIAMIN {
+    /*表情回复*/
+    background: purple;
+}
+
+._1HNpQBKKKQ1tG2OZH3CSsh{
+    /*群聊名称*/
+    color: #448079;
+}
+.chatRoomGroupHeaderName{
+    /*群聊名称*/
+    color: #448079;
+}
+
+.chatRoomTextChannel:hover, .chatRoomVoiceChannel:hover .chatRoomVoiceChannelName, .chatRoomTextChannel:hover .chatRoomTextChannel{
+    /*群聊分组hover效果*/
+    color: #000;
+}
+.chatRoomTextChannel:hover .SVGIcon_TextRoom .TextLines{
+    /*群聊分组hover效果SVG*/
+    stroke: #000;
+}
+
+.singleWindowDivider {
+	border: none;
+	background-color: greenyellow;
+}
+
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
+	color: orange;
+}

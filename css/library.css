@@ -1,0 +1,473 @@
+@import url("../global.css");
+
+@font-face {
+    font-family: "Russo";
+    src: url("../fontFamily/RussoOne.ttf");
+    font-weight: 100;
+}
+
+._2kwFFHckg8jvnwJfg9-la8 {
+	background: rebeccapurple;
+}
+
+.CFTLX2wIKOK3hNV-fS7_V.DesktopUI, .DesktopUI .CFTLX2wIKOK3hNV-fS7_V {
+	background: rebeccapurple;
+}
+
+body, body._2LxgdMcpWJRjkxZKbmeEEb {
+	font-family: 'Russo';
+}
+
+html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt {
+	box-sizing: border-box;
+	padding: 2px;
+}
+
+.DesktopUI .PP7LM0Ow1K5qkR8WElLpt, ._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt {
+	background: rebeccapurple;
+	border-radius: 6px;
+}
+
+html._14wqdluDeDnnEcg3OSLEmd body {
+	background: rebeccapurple !important;
+}
+
+._25gii5r23MmAqXvLZj24tK, ._3k90ug209sE23xAMqcM74s {
+	background-color: rebeccapurple;
+	border-radius: 6px;
+}
+
+.MCa4RMSvWJwwWjcZP2wTT ._1oERP7bVictkby2hP4BBva {
+	background-color: rebeccapurple;
+	color: greenyellow;
+	border-radius: 6px;
+}
+
+._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 {
+	border-radius: 0 6px 6px 0;
+	background-color: mediumpurple;
+	color: greenyellow;
+}
+
+._1-vlriAtKYDViAEunue4VO {
+	color: greenyellow;
+}
+
+._1-vlriAtKYDViAEunue4VO:hover:not(._2DpXjzK3WWsOtUWUrcuOG7) {
+	border-radius: 0 6px 6px 0;
+	background-color: darkorchid;
+    color: greenyellow;
+}
+
+._1-vlriAtKYDViAEunue4VO:hover:not(._2DpXjzK3WWsOtUWUrcuOG7) ._1rD8X96FdnksZLvRRlEiCR {
+	color: greenyellow;
+}
+
+._2rjVTGz8aLvqOdz5v2gq5C {
+	color: greenyellow;
+}
+
+div.ModalPosition_TopBar {
+	display: none;
+}
+
+::-webkit-scrollbar-corner {
+	background: greenyellow;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: greenyellow !important;
+}
+
+._3few7361SOf4k_YuKCmM62 .DialogDropDown:hover {
+	background: #4a256f;
+}
+
+._30wJO3MC4x-I1OWpy1TAeE._DialogInputContainer {
+	background: #4a256f;
+}
+
+._2oAiZidGyUxL-hfupFDQ2m:focus {
+	border-radius: 6px;
+	background: rebeccapurple;
+}
+
+._1DFCGL1HyqZkIjEaoNLdjf, ._181OY9APZJDARykJ_KOFPE {
+	font-family: 'Russo';
+}
+
+._1WKUOT3FdB9-48MMP0Tz9l {
+	background-color: #4a256f;
+}
+
+._1WKUOT3FdB9-48MMP0Tz9l:hover, ._1WKUOT3FdB9-48MMP0Tz9l:focus {
+	background: mediumpurple;
+}
+
+._2FxbHJzYoH024ko7zqcJOf {
+	background: rebeccapurple;
+	border-radius: 6px;
+	font-family: 'Russo';
+	color: white;
+	text-shadow: none;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, .3), 2px 2px 4px 0px rgba(0, 0, 0, .3)
+}
+
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI {
+	color: greenyellow;
+}
+
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover, .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI:hover, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
+	border-radius: 6px;
+    background: mediumpurple;
+    color: greenyellow;
+}
+
+button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogButton.Disabled, button.DialogButton.Disabled:hover {
+	border-radius: 6px;
+    font-family: 'Russo';
+	color: gray;
+}
+
+.O_nD7TklmaIZ80TPx3rjt.DialogButton {
+	font-family: 'Russo';
+}
+
+.O_nD7TklmaIZ80TPx3rjt.DialogButton._19KE2KdEXIYl3OB0p1Y59k {
+	background-color: #4a256f;
+    color: greenyellow;
+}
+
+.O_nD7TklmaIZ80TPx3rjt.DialogButton._19KE2KdEXIYl3OB0p1Y59k:hover {
+	color: greenyellow;
+    background: mediumpurple;
+}
+
+._2n6FNLKyb6al_YPk13xS7S ._2qURXDJ4ZtfSVOesDk7A73 .DialogCheckbox {
+	background: #4a256f;
+}
+
+._2n6FNLKyb6al_YPk13xS7S ._2RCSUgg2X_uF_C0e1lrcqc:hover {
+	background-color: rgb(69 61 80 / 48%);
+}
+
+._2n6FNLKyb6al_YPk13xS7S ._2RCSUgg2X_uF_C0e1lrcqc:hover .DialogCheckbox {
+	background: mediumpurple;
+}
+
+._2n6FNLKyb6al_YPk13xS7S .d9dlNsZ74TUTz3j0b1Syi .YxhO6W2VNKG69k4WqIrip {
+	font-family: 'Russo';
+	color: greenyellow;
+}
+
+._2n6FNLKyb6al_YPk13xS7S .d9dlNsZ74TUTz3j0b1Syi ._g4ceYb5tVuSmXg0aNEdR ._1L9a0QuKYIDA8pw0ztz0tr {
+	font-family: 'Russo';
+}
+
+._2n6FNLKyb6al_YPk13xS7S ._3vHX3wZSMEfQYNhAjbu0RB .mohK9opGjpCsWNdUuJuFE {
+	font-family: 'Russo';
+}
+
+._17SQWViInfB-hmYYLoK4Yw._2ddeJfhiG4hmAfqvi1FL6X {
+	font-family: 'Russo';
+}
+
+._1rihlgVMF4Q_fFZDnXeVt5 {
+	font-family: 'Russo';
+}
+
+._5bG9Iwr014pu3H1SPRwYh {
+	font-family: 'Russo';
+}
+
+.DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
+	fill: greenyellow;
+}
+
+._1dFOkDnInbUQgf2eUbF2G9 {
+	font-family: 'Russo';
+}
+
+.DesktopUI ._DialogInputContainer {
+	border-radius: 6px;
+}
+
+._2oAiZidGyUxL-hfupFDQ2m {
+	font-family: 'Russo';
+}
+
+._3YelWui4gQvucX_bHwvl15 ._1rihlgVMF4Q_fFZDnXeVt5 svg {
+	color: greenyellow;
+	margin-top: 3px;
+}
+
+.DialogContent {
+	font-family: 'Russo';
+}
+
+.eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI {
+	background: mediumpurple;
+}
+
+._1W1to_azoBRG95oNAFpf9Q.DesktopUI, .DesktopUI ._1W1to_azoBRG95oNAFpf9Q {
+	color: rebeccapurple;
+}
+
+._3jMlJm4PQCA8SfNlUR99Fo {
+	color: greenyellow;
+}
+
+._2bl0iQ9xigbq4Zd1NI6NZl::before {
+	background: rebeccapurple;
+}
+
+._3epr8QYWw_FqFgMx38YEEm.DesktopUI, .DesktopUI ._3epr8QYWw_FqFgMx38YEEm {
+	background-color: rgb(66 59 72 / 50%);
+}
+
+button.DialogButton:hover, button.DialogButton.gpfocus {
+	background: rebeccapurple;
+}
+
+._2_vG6TwMW2XtyLlTEaODH9::before {
+	background-color: rebeccapurple;
+}
+
+.DialogBody a {
+	color: purple;
+}
+
+.DialogBody a:hover {
+	color: deeppink;
+}
+
+button.TEWmsM70ZLEOxLAjDMpcv.TEWmsM70ZLEOxLAjDMpcv.DialogButton {
+	border-radius: 6px;
+    background-color: mediumpurple;
+}
+
+._3qIXY674NedSZNa-CXtNlt {
+	color: white;
+}
+
+.online ._2Ri005Wg_uXDTa71kdRbcN, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
+	color: inherit;
+}
+
+._1ml4SNc3LIyBDHIf8ekVSw {
+	background-color: mediumpurple;
+}
+
+.HijmccPB1BKyhOwhX1EVl {
+	background-color: rebeccapurple;
+	text-shadow: 0px 0px 4px #580d7e;
+}
+
+.HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q, .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:hover {
+	background: mediumpurple;
+    box-shadow: 0px 2px 2px rebeccapurple;
+}
+
+.HijmccPB1BKyhOwhX1EVl:not(._3hmGW9wIxNIoPPu1aS7rFm):hover {
+	background-color: darkorchid;
+}
+
+.HijmccPB1BKyhOwhX1EVl:not(._3hmGW9wIxNIoPPu1aS7rFm)._3-_jME_xsuvgT3Dvq4bw_q:hover {
+	background-color: darkorchid;
+}
+
+._2LyGIHuQ8SFKb5T262YUvg {
+	background-color: mediumpurple;
+    border-radius: 6px;
+}
+
+._2LyGIHuQ8SFKb5T262YUvg._3TgL3aJ2hUdLP2stFZ2wZv:hover {
+	background-color: darkorchid;
+}
+
+._2W_HQa5Rhf-hHITgV5H0bu {
+	border-radius: 6px;
+	color: greenyellow;
+    background-color: rebeccapurple;
+}
+
+.online .nOdcT-MoOaXGePXLyPe0H {
+	color: hotpink;
+}
+
+.ingame .nOdcT-MoOaXGePXLyPe0H {
+	color: greenyellow;
+}
+
+.offline .nOdcT-MoOaXGePXLyPe0H {
+	color: dimgray;
+}
+
+.online ._2Ri005Wg_uXDTa71kdRbcN, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
+	color: hotpink;
+}
+
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited, .ingame._1BbOegz8bYL7iPzgYpOgQI ._2Ri005Wg_uXDTa71kdRbcN {
+	color: greenyellow;
+}
+
+.offline ._2Ri005Wg_uXDTa71kdRbcN, .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a, .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover, .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active, .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited
+{
+	color: dimgray;
+}
+
+.eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu).xIITXDcM70faUNqssgUyx, .eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu)._3hgIZByMuZIEiFspMRGFBw {
+	border-radius: 6px;
+}
+
+._1PBuyc38k9xkUt4KB_lXh- {
+	color: white;
+}
+
+._3Vl2zkYPoCpw1q_1n28D3z {
+	border-radius: 6px;
+    background-color: mediumpurple;
+}
+
+.dbACWBb8zr4cf4u05jQ4x {
+	font-family: 'Russo';
+	color: white;
+}
+
+._7EGqd8bdiXJBd2fj5Hh8r {
+	border-radius: 6px;
+	background-color: mediumpurple;
+}
+
+._7EGqd8bdiXJBd2fj5Hh8r ._3HgL0eRQXwU6dIEXXK6qba ._1RUoX0kTOBfqpwCaBZGDLJ {
+	color: white;
+}
+
+._7EGqd8bdiXJBd2fj5Hh8r ._3HgL0eRQXwU6dIEXXK6qba ._2BdpWib8Zcj3QSkXzmGgIB {
+	color: white;
+}
+
+._7EGqd8bdiXJBd2fj5Hh8r.MYyvJ6lNQZtM4MHwS-Y3g {
+    background-color: rgb(75 61 80 / 63%);
+}
+
+._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit._1gKI37LOWj1Df3QSnxvKyF {
+	background-color: rebeccapurple;
+}
+
+._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit {
+	background-color: white;
+}
+
+._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B {
+	background: greenyellow !important;
+}
+
+._2Dptk9e7W_k4zYB5wfRTcp .Qeg4qAFIMLaYd3mHOBndS {
+	background: rebeccapurple;
+}
+
+.title-area-icon .SVGIcon_X_Line line {
+	stroke: mediumvioletred;
+	stroke-width: 64px;
+}
+
+.DesktopUI .title-area-icon.minimizeButton svg, .friendsui-container .title-area-icon.minimizeButton svg {
+	transform: translateY(-2px);
+}
+
+button.DialogButton:hover, button.DialogButton.gpfocus {
+    background: #350453;
+    color: greenyellow;
+}
+
+button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, button.DialogButton:enabled:active.gpfocus {
+	background: purple;
+}
+
+._170Npw5h84elypMSQ8zNDI ._1bqGAcZx1C71VYj14hz0po.Disabled, ._170Npw5h84elypMSQ8zNDI ._1bqGAcZx1C71VYj14hz0po:disabled, ._170Npw5h84elypMSQ8zNDI ._1bqGAcZx1C71VYj14hz0po:disabled:hover {
+	color: greenyellow;
+    background: mediumpurple;
+}
+
+button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:hover:active, button.DialogButton.Primary:enabled:active.gpfocus {
+	background: linear-gradient(to top, mediumpurple 0%, purple 60%);
+}
+
+button.DialogButton.Primary {
+	border-radius: 6px;
+	background: linear-gradient(to top, purple 0%, darkorchid 60%);
+	color: greenyellow;
+}
+
+button.DialogButton.Primary:hover, button.DialogButton.Primary.gpfocus:not(.Disabled) {
+	border-radius: 6px;
+	background: linear-gradient(to bottom, purple 0%, darkorchid 60%);
+	color: greenyellow;
+}
+
+._1Lfu7heMNRsXXo1Yfzsp17 {
+	background: linear-gradient(to top, rebeccapurple, darkorchid);
+}
+
+._39nnaT_CLE0m_WXVIrAwaG {
+	border-radius: 6px;
+    background: rgb(46 36 47 / 33%);
+}
+
+._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X {
+	font-family: 'Russo';
+    border-radius: 6px;
+    background: rgb(33 29 39 / 52%);
+	color: greenyellow;
+}
+
+._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X:focus {
+	background: rgb(44 16 65 / 80%);
+}
+
+._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 button.bACIuqv-b_9TztCczFK19 {
+	border-radius: 6px;
+    background-color: mediumpurple;
+    color: darkorchid;
+}
+
+._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 ._2JSyABqFEh-v_dwaTnBydR {
+	border-radius: 6px;
+    background-color: mediumpurple;
+    color: darkorchid;
+}
+
+.EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf {
+	font-family: 'Russo';
+    border-radius: 6px;
+	background-color: #2d0c4f;
+}
+
+.EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf:hover, .EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf:focus {
+	background-color: #2d0c4f !important;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW {
+	background: darkmagenta;
+    border: 1px solid mediumpurple;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW ._1SKB0Xc7OpWlOlr-wSi8ho {
+	background: mediumpurple;
+	color: white;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW ._1SKB0Xc7OpWlOlr-wSi8ho:hover {
+    background: rebeccapurple;
+    color: greenyellow;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU:hover, ._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1FyBL6obxHQ2Z2CsaV2Gbz ._1KAp5PPYG7si-T_66zNEcU:hover {
+    background: mediumpurple;
+    color: #fff;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU, ._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1FyBL6obxHQ2Z2CsaV2Gbz ._1KAp5PPYG7si-T_66zNEcU {
+	border-radius: 6px;
+}
