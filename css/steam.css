@@ -874,6 +874,7 @@ textarea {
 }
 
 ._2r4TK4BAuU-J4FuF_O7v_5 {
+	margin-bottom: 0 !important;
 	font-family: "Russo";
 }
 
@@ -1796,4 +1797,26 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb._2bJqZ-CdH4oxe-VpUp0yvW:hover {
 
 ._17uEBe5Ri8TMsnfELvs8-N {
 	background-image: none;
+}
+
+/* Исправление сломанного текста и высоты блока новостей */
+div[class*="PartnerEventLargeImage_TextColumn"] {
+    max-height: none !important;
+    height: auto !important;
+    flex: auto !important; /* сбрасывает деформацию flexbox из sp.css */
+	padding-top: 0;
+	padding-bottom: 6px;
+	
+}
+
+/* На всякий случай: если полоса — это border или shadow у этого же блока */
+div[class*="PartnerEventLargeImage_TextColumn"] {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+._39nnaT_CLE0m_WXVIrAwaG .FPxfNOUIyMTxA5iyxVWGX {
+	color: white;
+	border-radius: 6px;
+    background-color: mediumpurple;
 }
