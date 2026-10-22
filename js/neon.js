@@ -457,7 +457,8 @@ function getSupportedFormat(iF, f, t) {
 function acquireExtensions() {
     const hasColorFloat     = !!gl.getExtension('EXT_color_buffer_float');
     const hasColorHalfFloat = !!gl.getExtension('EXT_color_buffer_half_float');
-    const linFilter         = !!gl.getExtension('OES_texture_float_linear');
+    // WebGL2 guarantees LINEAR filtering for the HALF_FLOAT texture formats used here.
+    const linFilter         = true;
     const hf = gl.HALF_FLOAT;
 
     let fRGBA = null, fRG = null, fR = null;
@@ -923,6 +924,7 @@ function use(prog) {
 
 function splat(x, y, dx, dy) {
     if (!ready) return;
+    gl.bindVertexArray(vao);
     const aspect = canvas.width / canvas.height;
     const radius = correctRadius(CONFIG.SPLAT_RADIUS, aspect);
 
@@ -1188,14 +1190,11 @@ self.onmessage = function (e) {
             break;
 
         case 'window':
-            if (Math.abs(msg.dx) > CONFIG.WINDOW_TELEPORT_PX ||
-                Math.abs(msg.dy) > CONFIG.WINDOW_TELEPORT_PX) {
-                windowDeltaX = 0; windowDeltaY = 0;
-                winVelX = 0; winVelY = 0;
-            } else {
-                windowDeltaX += msg.dx;
-                windowDeltaY += msg.dy;
-            }
+            // DPI/координатный скачок при переходе на другой монитор не должен
+            // полностью отключать реакцию флюидов. Ограничиваем импульс, а не
+            // отбрасываем его целиком.
+            windowDeltaX += clamp(msg.dx, -CONFIG.WINDOW_TELEPORT_PX, CONFIG.WINDOW_TELEPORT_PX);
+            windowDeltaY += clamp(msg.dy, -CONFIG.WINDOW_TELEPORT_PX, CONFIG.WINDOW_TELEPORT_PX);
             break;
 
         case 'destroy':
@@ -1241,6 +1240,7 @@ self.onmessage = function (e) {
 
             this._destroyAckReceived = false;
             this._destroyFallbackTimer = null;
+            this.originalTargetStyles = null;
 
             this._onMouseMove = this._onMouseMove.bind(this);
             this._onMouseLeave = this._onMouseLeave.bind(this);
@@ -1250,13 +1250,48 @@ self.onmessage = function (e) {
             this._flushMouse = this._flushMouse.bind(this);
             this._refreshRect = this._refreshRect.bind(this);
 
-            this._init();
+            try {
+                this._init();
+            } catch (err) {
+                // Инициализация могла частично создать DOM/Worker/GPU-ресурсы.
+                // Освобождаем всё созданное до проброса ошибки в Manager.
+                this.destroy();
+                throw err;
+            }
+        }
+
+        _captureTargetStyles(el) {
+            const properties = [
+                'background', 'background-color', 'background-image',
+                'isolation', 'position', 'overflow'
+            ];
+            this.originalTargetStyles = {};
+            for (const property of properties) {
+                this.originalTargetStyles[property] = {
+                    value: el.style.getPropertyValue(property),
+                    priority: el.style.getPropertyPriority(property)
+                };
+            }
+        }
+
+        _restoreTargetStyles() {
+            if (!this.target || !this.originalTargetStyles) return;
+            for (const property in this.originalTargetStyles) {
+                const saved = this.originalTargetStyles[property];
+                if (saved.value) {
+                    this.target.style.setProperty(property, saved.value, saved.priority);
+                } else {
+                    this.target.style.removeProperty(property);
+                }
+            }
+            this.originalTargetStyles = null;
         }
 
         _init() {
             injectStyles();
 
             const el = this.target;
+            this._captureTargetStyles(el);
             el.style.setProperty('background', 'transparent', 'important');
             el.style.setProperty('background-color', 'transparent', 'important');
             el.style.setProperty('background-image', 'none', 'important');
@@ -1342,6 +1377,8 @@ self.onmessage = function (e) {
 
                     case 'contextrestored':
                         console.log('[Fluid] WebGL context restored');
+                        // Reapply backing-store dimensions in case the target resized while the context was lost.
+                        this._sendResize();
                         break;
 
                     case 'warn':
@@ -1474,14 +1511,17 @@ self.onmessage = function (e) {
 
         // ── Окно: 20 Гц. Чаще кадра не нужно, реже — видны «ступеньки» ──
         _pollWindow() {
-            if (this.destroyed || !this.worker || !this.workerReady || document.hidden) return;
+            if (this.destroyed || !this.worker || !this.workerReady) return;
             const cx = window.screenX || 0;
             const cy = window.screenY || 0;
             const dx = cx - this.prevScreenX;
             const dy = cy - this.prevScreenY;
             this.prevScreenX = cx;
             this.prevScreenY = cy;
-            if (dx === 0 && dy === 0) return;
+            // При переносе между мониторами экранные координаты могут резко
+            // измениться из-за разного DPI. Обновляем базу и в hidden-состоянии,
+            // чтобы после возврата не получить устаревший скачок координат.
+            if (document.hidden || (dx === 0 && dy === 0)) return;
             this.worker.postMessage({ type: 'window', dx, dy });
         }
 
@@ -1534,6 +1574,10 @@ self.onmessage = function (e) {
                 this.canvas.parentNode.removeChild(this.canvas);
             }
             this.canvas = null;
+
+            // Возвращаем только свойства, изменённые симуляцией, не затрагивая
+            // остальные inline-стили, которые Steam мог изменить самостоятельно.
+            this._restoreTargetStyles();
 
             console.log('[Fluid] Bridge destroyed');
         }
@@ -1623,6 +1667,8 @@ self.onmessage = function (e) {
             if (this.pollTimer)   { clearTimeout(this.pollTimer);   this.pollTimer = null; }
             if (this.healthTimer) { clearInterval(this.healthTimer); this.healthTimer = null; }
             if (this.bridge)      { this.bridge.destroy();           this.bridge = null; }
+            const injectedStyle = document.getElementById('fluid-steam-override');
+            if (injectedStyle) injectedStyle.remove();
         },
     };
 
