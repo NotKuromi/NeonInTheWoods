@@ -1,0 +1,629 @@
+@import url(../global.css);
+
+@font-face {
+    font-family: "Russo";
+    src: url(../fontFamily/RussoOne.ttf);
+    font-weight: 300;
+}
+
+.responsive_page_template_content {
+    background: none !important;
+}
+
+.home_ctn.tab_container {
+    background: none !important;
+}
+
+body.v6 {
+	font-family: 'Russo' !important;
+    background: none !important;
+}
+
+.home_ctn.tab_container {
+    background: none !important;
+}
+
+.home_ctn.home_content_ctn.bottom_content {
+    display: none !important;
+}
+.small_footer {
+    display: none !important;
+}
+
+.responsive_page_content_overlay {
+    z-index: -1 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    background: url(../imgs/shopBG.jfif) no-repeat center center !important;
+    background-size: cover !important;
+}
+
+.responsive_page_content_overlay::before {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+}
+
+.apphub_background {
+    background: none !important;
+}
+
+body.v6 .page_content_ctn.dark {
+    background: none !important;
+}
+
+.game_page_background.game {
+    background: none !important;
+}
+
+.subSectionDesc {
+	color:#fff !important;
+}
+
+.apphub_ContentGuides .workshopItemCollection .workshopItemShortDesc {
+    color: #d5d5d5 !important;
+}
+
+.apphub_ContentGuides .workshopItemCollection .workshopItemTitle {
+	color: greenyellow !important;
+}
+
+.apphub_ContentGuides .workshopItemCollection:hover .workshopItemTitle {
+	color: darkorange !important;
+}
+
+body.profile_page, 
+body.profile_page * {
+    font-family: "Russo";
+	font-weight: 300;
+}
+
+@media (min-width: 910px) {
+    #game_highlights .highlight_ctn {
+        width: 100% !important;
+    }
+}
+
+.reviewer_hardware_container {
+	font-family: 'Russo';
+    font-size: 12px;
+	color: greenyellow;
+	background-color: rebeccapurple;
+    border-radius: 6px;
+}
+
+.review_box {
+	border-radius: 6px;
+	background: linear-gradient(60deg, rgb(110 47 131 / 30%) 5%, rgb(255 108 255 / 30%) 95%);
+}
+
+.review_box .content {
+	font-family: 'Russo';
+	color: white;
+	font-size: 12px;
+}
+
+.dselect_container .trigger {
+	border-radius: 6px;
+    color: greenyellow;
+	background-color: rebeccapurple;
+}
+
+button {
+    font-family: 'Russo' !important;
+}
+
+.review_box .vote_header {
+	background: rgb(0 0 0 / 27%);
+	border-radius: 6px;
+    line-height: 18px;
+}
+
+.review_box .header {
+	color: magenta;
+	background: rgb(0 0 0 / 32%);
+}
+
+.review_box .header .review_award_count {
+	color: magenta;
+}
+
+.pagebtn, a.pagebtn, .page_current, .pagelink {
+	border-radius: 6px;
+}
+
+body, body._2LxgdMcpWJRjkxZKbmeEEb {
+	font-family: 'Russo' !important;
+}
+
+.review_box .leftcol img {
+	border-radius: 6px;
+}
+
+.review_box .vote_header .title {
+	font-family: 'Russo' !important;
+}
+
+.pagebtn:not(.disabled):hover, a.pagebtn:not(.disabled):hover, .pagelink:hover {
+	background-color: rebeccapurple;
+}
+
+.early_access_review {
+	background-color: darkmagenta;
+    border-radius: 6px;
+    border: 1px solid magenta;
+	color: greenyellow;
+	font-family: 'Russo' !important;
+}
+
+div.bb_h1, .bb_wysiwyg h1 {
+	color: darkorchid;
+}
+
+span.bb_spoiler {
+	color: darkorchid;
+    background-color: darkorchid;
+    border-radius: 6px;
+}
+
+.btnv6_blue_hoverfade {
+	font-family: 'Russo';
+	color: greenyellow !important;
+    background: rebeccapurple;
+	border-radius: 6px;
+}
+
+.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+	background: linear-gradient(to top, darkmagenta 5%, rebeccapurple 95%);
+}
+
+.queue_btn_menu:hover > .queue_menu_arrow, .queue_btn_menu > .queue_menu_arrow:hover {
+	border-start-end-radius: 6px;
+    border-end-end-radius: 0px;
+    background: linear-gradient(to top, darkmagenta 5%, rebeccapurple 95%);
+    background-color: unset;
+}
+
+.queue_btn_menu:hover .queue_menu_flyout, .queue_menu_flyout:hover, .queue_menu_flyout.force_expand, [aria-expanded=true] ~ .queue_menu_flyout {
+	background: linear-gradient(to top, darkmagenta 5%, rebeccapurple 95%);
+	border-radius: 6px;
+}
+
+.queue_menu_option_label > .option_title {
+	color: greenyellow;
+}
+
+.queue_menu_option_label > .option_subtitle {
+	color: white;
+}
+
+.queue_menu_option:hover {
+	background: #00000038;
+}
+
+.ds_flag.ds_owned_flag {
+	background: url("data:image/svg+xml,%3Csvg width='11' height='10' viewBox='0 0 11 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1' y='1' width='8' height='2' fill='%23111111'/%3E%3Crect x='1' y='4' width='8' height='2' fill='%23111111'/%3E%3Crect x='1' y='7' width='8' height='2' fill='%23111111'/%3E%3C/svg%3E%0A") no-repeat 4px 4px rebeccapurple;
+}
+
+.game_area_already_owned .ds_flag {
+	box-shadow: 1px 1px 2px greenyellow;
+}
+
+.ds_flag {
+	color: greenyellow;
+	padding: 0 6px 0 18px;
+	border-radius: 0 6px 6px 0;
+}
+
+.sectionTab.active {
+	border-bottom: 3px solid greenyellow;
+}
+
+.gameListRowItemName {
+	font-family: 'Russo';
+}
+
+.profile_small_header_texture {
+	background: rgb(64 9 69 / 50%);
+    border-radius: 0 0 6px 6px;
+}
+
+body {
+	background: rebeccapurple;
+}
+
+#rightContents .box {
+	border-radius: 6px;
+}
+
+.Z2hc6V7xIVo- {
+	background: linear-gradient(rebeccapurple 0%, darkmagenta 100%);
+	box-shadow: 0 0 7px purple;
+	border-radius: 6px;
+}
+
+.qaT2YvwApZE- {
+	border-radius: 6px;
+	background-color: #37004933;
+}
+
+.qaT2YvwApZE- picture img {
+	border-radius: 6px;
+}
+
+.qaT2YvwApZE- .wfG8VGEsVTw- {
+	font-weight: 100;
+}
+
+.qaT2YvwApZE- .Txy-fL1Lo7M- .WnfjYSyvqNI- {
+	border-radius: 6px;
+}
+
+.WnfjYSyvqNI- {
+	border-radius: 6px;
+	background: mediumpurple;
+	color: greenyellow;
+}
+
+.WnfjYSyvqNI-:hover {
+	background: purple;
+}
+
+.bWJ-A1tETJQ->a, .bWJ-A1tETJQ->span, .bWJ-A1tETJQ- button {
+	color: greenyellow;
+}
+
+.h2hJmhz41JY- {
+	background: rebeccapurple;
+	border-radius: 6px;
+}
+
+.bWJ-A1tETJQ->a:hover, .bWJ-A1tETJQ->span:hover, .bWJ-A1tETJQ- button:hover {
+	color: greenyellow;
+    background: mediumpurple;
+}
+
+.aMOYGh7hnLQ-.xm0ps8RlGjM- {
+	border-bottom: 3px solid #9c1aff;
+}
+
+.Ipalm5ENV44- {
+	background: greenyellow;
+}
+
+.P5l1h4VfEfg- {
+	background: mediumpurple;
+}
+
+.e1OlraMtN2w- .GabvDY6z77M- {
+	color: greenyellow;
+}
+
+.BuguuDRxadQ- input {
+	background: mediumpurple;
+	color: white;
+	border-radius: 6px;
+	font-family: 'Russo';
+}
+
+.hRwhHwwKlgI- {
+	box-shadow: 0 0 7px greenyellow;
+	background: greenyellow url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAFMN540AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MkQ4QTE5MTc3M0M4MTFFODkzODlBNzdDNUZEOUI2RUMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MkQ4QTE5MTg3M0M4MTFFODkzODlBNzdDNUZEOUI2RUMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyRDhBMTkxNTczQzgxMUU4OTM4OUE3N0M1RkQ5QjZFQyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyRDhBMTkxNjczQzgxMUU4OTM4OUE3N0M1RkQ5QjZFQyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqixHngAAAK7SURBVHjaYvz//z8DMmABEZuio2CiX8ACf378gCngAQv8/fHjM5DiDd26jREggBjRzWDcGBUpB6Qfgjh+S5cxsgD1P0RWwRS0dh0j0AyQOWABgACCm7ElLhauFQiW+yxaHAVXsDE8DNUmKPBfuYoR7Kzf37+vAFIR2BRhOBMdAAQQXgUsMAbQgX+AFDOIDXQcI1wnUqDBAdjzIMb/P38wjAT6ZgckMLFIAoEOWPLf798YMiGbNsswQRmM///+ZUDC0QS9AhBABAMCH2BB5myOjckHUhPwqP/vu3gJE4bNm6Ii/4KSAZGWKvgtW/4QbjMwRJhIcPEtIGaHa8YR1rhAHUaArfH1+QcSI6AxMmTzlhU4Q3uVlycolc8GYkcgfgXEU8K2be9AVwcQQBRFFRMDBYAFXQCY7peB/IUmDAoLRWA+eITT2cBEQiiui4CJpB8zkURHgcoYHiJcKw/MaI8QxVdUpDyRGkHgPiw7Q3Lq378zyQlkiOZ//xzIDu1///69AVLSZMUz0ObJQMxALEbRHLx+QydaMYIPr8BMYf//RzKAog0//g8sryKxJpLV3l5+oCIRhxe/AOsZXoIZA5irKoBUDhCLAfF+IM4E5qp7VM1VAAFGkWaq5khcYEt8HKhwiYIWLlpALAqqG4H4CbRqPQDEK30WLrpPsY83x8WCIm4JqDFAooe+AHGa76LFy0myeHNMdDioYUBEGUwIgAyP9F2ydCVBi4FF0VJokFITrAAWW5E4Ld4YEV4OpDpolJ4q/Fes7MRaVwDLh1xSyhIScS7OVA2UFKFhDhLFZ/FBIOVGI4v347M4HUjdpbS6xgJAZXwG3lQNbMqACoqrJNSVxORpbWDT5xFRBchqH29Q+7GPAt+DDC4N3bK1l6yyejWkHQbKBmFEOAIUpKuAuDx02/ZHg7KSYGIYIAAAG8jIJ8edBjIAAAAASUVORK5CYII=) 4px/12px 12px no-repeat;
+	color: rebeccapurple;
+}
+
+.rYnVBBDJIz4- {
+	border-radius: 6px;
+}
+
+.queue_btn_menu > .queue_menu_arrow {
+	color: greenyellow !important;
+    background: rgb(245 103 213 / 20%);
+	border-start-end-radius: 6px;
+    border-end-end-radius: 6px;
+}
+
+.btnv6_border_2px {
+	border: 2px solid mediumpurple;
+}
+
+.btnv6_lightblue_blue {
+	background: linear-gradient(to top, darkmagenta 5%, rebeccapurple 95%);
+	color: greenyellow !important;
+}
+
+body.v6 .game_area_already_owned.page_content {
+	color: greenyellow;
+	font-family: 'Russo';
+	background: linear-gradient(to top, darkmagenta 5%, rebeccapurple 95%);
+	border-radius: 6px 6px 0 0;
+}
+
+#review_create h2, .reviewDate {
+	border-top: 1px solid rebeccapurple;
+	color: greenyellow;
+    font-family: 'Russo';
+}
+
+#review_create .input_box {
+	font-family: 'Russo';
+	border-radius: 6px;
+	background-color: mediumpurple;
+	border: 1px solid greenyellow;
+	color: greenyellow;
+}
+
+.review_controls {
+	border-radius: 6px;
+}
+
+#review_create .content .controls .dselect_container button.trigger:hover, #review_create .content .controls .dselect_container button.activetrigger, #review_create .content .controls .dselect_container button.activetrigger:hover {
+	color: greenyellow;
+    border-radius: 6px;
+    background-color: unset;
+	background: linear-gradient(to top, darkmagenta 5%, rebeccapurple 95%);
+}
+
+.dropcontainer ul a {
+	background: linear-gradient(to top, darkmagenta 5%, rebeccapurple 95%);
+	color: greenyellow;
+}
+
+.review_controls .controlblock .dselect_container {
+	background: rebeccapurple;
+    border-radius: 6px;
+}
+
+.btnv6_border_2px > span {
+	border-radius: 6px;
+}
+
+.btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+	background: linear-gradient(to top, rebeccapurple 5%, darkmagenta 95%);
+	color: greenyellow !important;
+}
+
+.widestore .game_area_play_stats {
+	border-radius: 0 0 6px 6px;
+}
+
+.btn_green_steamui > span {
+	background: linear-gradient(to top, darkmagenta 5%, rebeccapurple 95%);
+}
+
+.btn_green_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
+	background: linear-gradient(to top, rebeccapurple 5%, darkmagenta 95%);
+}
+
+.game_purchase_action_bg .btn_medium, .game_purchase_action_bg .btn_medium > span {
+	border-radius: 6px;
+}
+
+.game_purchase_action_bg {
+	background-color: mediumpurple;
+	border-radius: 6px;
+}
+
+.game_purchase_action .game_purchase_price {
+	background-color: mediumorchid;
+	color: greenyellow;
+	font-family: 'Russo';
+	border-radius: 6px;
+}
+
+.game_area_dlc_price, #dlc_purchase_action .game_purchase_price {
+	font-family: 'Russo';
+}
+
+.game_area_dlc_row.odd {
+	border-radius: 6px;
+}
+
+.dlc_highlight_reason {
+	background-color: rebeccapurple;
+	color: greenyellow;
+	border-radius: 6px;
+}
+
+.game_area_dlc_row.even:hover, .game_area_dlc_row.odd:hover {
+	background-color: mediumpurple;
+	color: greenyellow;
+}
+
+.game_hover_box {
+	background: linear-gradient(to top, darkmagenta 5%, rebeccapurple 95%);
+	color: greenyellow;
+	border-radius: 6px;
+}
+
+.game_hover_box h4.hover_title {
+	color: greenyellow;
+	font-family: 'Russo';
+}
+
+.hover_tag_row .app_tag {
+	border-radius: 6px;
+	background-color: rebeccapurple;
+	color: greenyellow;
+}
+
+.hover_body .hover_review_summary {
+	border-radius: 6px;
+}
+
+._630lLH8fjII- {
+	background-image: linear-gradient(to top, darkmagenta 5%, rebeccapurple 95%);
+	border-radius: 6px;
+	font-family: 'Russo';
+}
+
+a:hover:where(:not(.noOpinionatedGlobalStyles a)) {
+	color: greenyellow;
+}
+
+@container event-item (width < 500px) {
+    ._2w1L-tFibuk-:hover .WVCDoL13yGg- {
+        background-color: #361441b3;
+    }
+}
+
+.YZMD3BYfIGw- {
+	font-family: 'Russo';
+}
+
+@container event-item (width < 500px) {
+    ._2w1L-tFibuk-:hover .WVCDoL13yGg- ._5IGBtrxnWJ0- {
+        color: greenyellow;
+    }
+}
+
+.game_description_column .block .block_header .right a {
+	color: greenyellow;
+	background-color: rebeccapurple;
+	border-radius: 6px;
+}
+
+.widestore .game_page_autocollapse_readmore {
+	color: greenyellow;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgb(74 37 96 / 50%) 33%, rgb(90 37 96 / 50%) 66%, rgba(0, 0, 0, 0) 100%);
+}
+
+.widestore .game_area_description {
+	font-family: 'Russo';
+}
+
+body.v6 .game_area_description h2.bb_tag {
+	color: mediumorchid;
+}
+
+.game_area_sys_req, .album_metadata_chunk_contents {
+	font-family: 'Russo';
+    font-weight: 100;
+}
+
+body.v6 h2:not(.BB_Header2) {
+	font-family: 'Russo';
+}
+
+.game_area_sys_req strong, .album_metadata_chunk_name {
+	font-family: 'Russo';
+}
+
+.FsYxDNcAXaI- {
+	background-color: rebeccapurple;
+	border-radius: 6px;
+}
+
+.fNtXEMzHz58- {
+	font-family: 'Russo';
+	background-color: mediumpurple;
+	border-radius: 0 0 6px 6px;
+}
+
+.LCYi5cxHqgI- {
+	background-color: rebeccapurple;
+	color: greenyellow;
+	box-shadow: 0 0 10px greenyellow;
+    border-radius: 0 6px 6px 0;
+}
+
+.oztjxXYIBAk- img {
+	border-radius: 6px;
+}
+
+.oztjxXYIBAk-:hover ._7CUHH8Trg28-, .oztjxXYIBAk-.gpfocus ._7CUHH8Trg28- {
+	border-radius: 6px;
+}
+
+.oztjxXYIBAk-:hover .ZMGnYjKDOEI-, .oztjxXYIBAk-.gpfocus .ZMGnYjKDOEI- {
+	border-radius: 6px;
+}
+
+.wehiQWmhkMM-.lsFCe2D6yJo- ._4rFF1L9jPC8- {
+	border-radius: 6px;
+	background: linear-gradient(90deg, #311259bd -1% 0%, #22324600 92% 100%);
+}
+
+.uCfEru-Rv30- .o79HbP6msR0- {
+	background: linear-gradient(#16202d00 5%, #32134ff2 95%);
+}
+
+button.DialogButton {
+	background: rebeccapurple;
+	color: greenyellow;
+	border-radius: 6px;
+}
+
+.lsFCe2D6yJo- ._4rFF1L9jPC8- {
+	border-radius: 6px;
+}
+
+.XLbP8xOkCYw- {
+	background: linear-gradient(to top, darkmagenta 5%, rebeccapurple 25%);
+	color: greenyellow;
+	font-family: 'Russo' !important;
+	border-radius: 0 0 6px 6px;
+}
+
+.rFKwchjD-WU-:hover {
+	border: 1px solid #871aff63;
+}
+
+.XLbP8xOkCYw-, .XLbP8xOkCYw- button, .XLbP8xOkCYw- input {
+	font-family: 'Russo';
+}
+
+.A42lZ-U1dhI- {
+	background: mediumpurple;
+	border-radius: 0 6px 6px 0;
+}
+
+.rFKwchjD-WU-:focus-visible {
+	background: rebeccapurple;
+    border: 1px solid rebeccapurple;
+}
+
+.O2jUvAs3OiU- {
+	border-radius: 0 0 6px 6px;
+	background: linear-gradient(to top, darkmagenta 5%, rebeccapurple 95%);
+}
+
+.O2jUvAs3OiU- .w6F-8HDoxbw- .YmtQkHMBLzw- a.KKRHY2AccFo- {
+	color: greenyellow;
+}
+
+.QHiQcR8jG10- {
+	background: linear-gradient(90deg, #160e1b33 0%, #b8a3d333 100%);
+    border-radius: 6px;
+}
+
+.A42lZ-U1dhI-:hover {
+	background: darkmagenta;
+}
+
+.QHiQcR8jG10-.YwCAkIaJoFI-, .QHiQcR8jG10-.VGL2pmX7kcY-:hover, .QHiQcR8jG10-.gpfocus {
+	background: linear-gradient(90deg, #160e1b99 0%, #b44ef399 100%);
+}
+
+.UcrgejVf5aA-.qKiMR-l-sSM- {
+	background: rebeccapurple 0 0 / 11px;
+}
+
+.UcrgejVf5aA- {
+	color: greenyellow;
+	box-shadow: 0 0 4px greenyellow;
+	border-radius: 0 6px 6px 0;
+}
+
+.fGs1iLkUXjA- ._077DfADYleA- {
+	color: greenyellow;
+	background: rebeccapurple;
+	border-radius: 6px;
+	padding: 2px 3px;
+}
