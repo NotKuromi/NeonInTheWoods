@@ -48,9 +48,8 @@
         "Cartoon",
 		"Colorful",
 		"Amphibia",
-		"Light",
-		"NightInTheWoods"
+		"Light"
     ],
-    "header_image": "https://github.com/NotKuromi/NeonInTheWoods/blob/main/Low.gif",
-    "splash_image": "https://github.com/NotKuromi/NeonInTheWoods/blob/main/High.gif"
+    "header_image": "https://raw.githubusercontent.com/NotKuromi/NeonInTheWoods/main/Low.gif",
+    "splash_image": "https://raw.githubusercontent.com/NotKuromi/NeonInTheWoods/main/High.gif"
 }
