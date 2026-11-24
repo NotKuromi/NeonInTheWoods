@@ -550,7 +550,7 @@ div.NarrowRightPanel ._3-V8vjmrwuJM6Ws3tsjFJj {
 }
 
 ._3pSPluBgf0NeR1kkCLWMhR.eNLOx4LVceeMwRvTVWh3 {
-	background-color: darkolivegreen;
+	background-color: mediumpurple;
 }
 
 ._20JlDJD9-uoCjNLGp_8mY6 {
@@ -751,7 +751,7 @@ button.DialogButton.Primary {
 
 button.DialogButton {
 	border-radius: 6px;
-	background: rebeccapurple;
+	background: linear-gradient(to top, purple 0%, darkorchid 60%);
 	color: greenyellow;
 }
 
@@ -1379,7 +1379,7 @@ button.DialogButton.Primary:hover, button.DialogButton.Primary.gpfocus {
 }
 
 button.DialogButton:hover, button.DialogButton.gpfocus {
-	background: linear-gradient(to right, #01a75b 0%, #70d61d 60%);
+	background: linear-gradient(to top, darkorchid 0%, purple 60%);
 }
 
 .gPNe6N5eKlA8lWfKHmXAR ._1QcYQDXPqfL7bqXs7mATU_ {
@@ -1819,4 +1819,25 @@ div[class*="PartnerEventLargeImage_TextColumn"] {
 	color: white;
 	border-radius: 6px;
     background-color: mediumpurple;
+}
+
+.v66w8s0IBeRURM9hD5nAw {
+	border-radius: 6px;
+	border-image: none;
+	background: radial-gradient(100% 80% at 20% 95%, rgb(211 48 187 / 59%) 0%, rgb(115 9 141 / 82%) 20%, rgb(81 4 60 / 78%) 100%);
+	box-shadow: 0 0 12px rgb(239 0 255 / 78%);
+	color: ghostwhite;
+	font-weight: 100;
+}
+
+.v66w8s0IBeRURM9hD5nAw ._2T8UwmbZ9jJzntqjQU4czU {
+	color: greenyellow;
+}
+
+._3WOeX9PHv29FSw4EKlG77h {
+	background: greenyellow;
+}
+
+._1i6AhxSEgz1FAUyiEt1Xsk {
+	background: rebeccapurple;
 }

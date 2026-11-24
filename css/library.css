@@ -15,6 +15,7 @@
 }
 
 body, body._2LxgdMcpWJRjkxZKbmeEEb {
+	color: ghostwhite;
 	font-family: 'Russo';
 }
 
@@ -470,4 +471,61 @@ button.DialogButton.Primary:hover, button.DialogButton.Primary.gpfocus:not(.Disa
 
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU, ._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1FyBL6obxHQ2Z2CsaV2Gbz ._1KAp5PPYG7si-T_66zNEcU {
 	border-radius: 6px;
+}
+
+._21_rrXIoZ7yQbc0u7rhvkP {
+	border: .5px solid #36146e;
+}
+
+.DialogContent, .DialogContentTransition {
+	background: radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%), rebeccapurple;
+}
+
+._28eIRmQ229ntDIyQXTn3Ub.QE3sHW9puNTAjiRDY71Xy {
+	background-color: mediumpurple;
+	border-radius: 6px;
+}
+
+._28eIRmQ229ntDIyQXTn3Ub._32Lfwcdolc3ByZWItfR3ni.QE3sHW9puNTAjiRDY71Xy:hover {
+	background-color: darkmagenta;
+    color: greenyellow;
+}
+
+._28eIRmQ229ntDIyQXTn3Ub._32Lfwcdolc3ByZWItfR3ni.QE3sHW9puNTAjiRDY71Xy:hover svg {
+	fill: greenyellow;
+    color: greenyellow;
+}
+
+._3twsgFT0Ba--9DybmydSI8 {
+	color: white;
+}
+
+._1LC5K3PfjAt0YKGgKsQ_W0 {
+	color: greenyellow;
+}
+
+.mZYRu1dN5Q9aQ1r3Cq_NE ._3qU1y0b7iBL_tHtWv97ff9 {
+	color: greenyellow;
+}
+
+.DesktopUI .title-area-icon:hover, .friendsui-container .title-area-icon:hover {
+	background: mediumpurple;
+}
+
+._2dU9SCYnAxjOss_afiRpoP {
+	color: white;
+	font-weight: 100;
+}
+
+._2dU9SCYnAxjOss_afiRpoP:hover {
+	color: greenyellow;
+}
+
+.eix8uUJGUHI0JLnjSEQe- ._3McijuNU4rzhT_J0BnrLBR {
+	color: white;
+}
+
+._3epr8QYWw_FqFgMx38YEEm.DesktopUI, .DesktopUI ._3epr8QYWw_FqFgMx38YEEm {
+	background-color: rebeccapurple;
+    border-radius: 6px;
 }
