@@ -932,7 +932,7 @@
 				'}',
 				'',
 				'._37Lk82ESPo7El4__sqZgOV ._1LRR7Ji-cwYvaIOcDllLOx ._1s_9cSxUjb4609MSH0EjWH ._39Y01uSRcLiDg5DneTTR0m {',
-				'    color: honeydew;',
+				'    color: greenyellow;',
 				'}',
 				'',
 				'._39Zk32AvV5cr6g-83IVRVS {',
