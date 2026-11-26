@@ -1086,10 +1086,6 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 	background: radial-gradient(ellipse farthest-corner at 20% 30%, rebeccapurple 0%, mediumorchid 50%, mediumpurple 100%);
 }
 
-._2V2sHETNfa62yMoDwSF3_t._3s4Rq3jnntBVP7HbJj1RMQ {
-	box-shadow: 0px 0px 2px 1px purple, 0px 0px 16px 1px rebeccapurple;
-}
-
 ._1OIatPEED_bSmd_CNyMv7C {
 	background-color: rebeccapurple;
 }
@@ -1840,4 +1836,72 @@ div[class*="PartnerEventLargeImage_TextColumn"] {
 
 ._1i6AhxSEgz1FAUyiEt1Xsk {
 	background: rebeccapurple;
+	border-radius: 6px;
+}
+
+/* ================
+   НОВЫЕ ДОСТИЖЕНИЯ
+   ================ */
+
+._2BCoqu4wd4ehkJkelVhjb3 {
+	box-shadow: 0px 0px 2px 1px greenyellow, 0px 0px 16px 1px rgb(78 255 165 / 40%);
+}
+
+.M5YgSyrfvCXXY_XYhYzcl {
+	border-radius: 6px;
+}
+
+.BorderColor.Clickable {
+	border-radius: 6px !important;
+	--border-color: mediumpurple !important;
+	background: rebeccapurple !important;
+	transition: all 0.2s ease !important;
+}
+
+.BorderColor.Clickable span.Text {
+    color: greenyellow !important;
+    font-family: 'Russo', sans-serif !important;
+    text-shadow: 0 0 4px rgba(173, 255, 47, 0.4) !important;
+    font-weight: 100 !important;
+}
+
+.BorderColor.Clickable:hover {
+    --border-color: greenyellow !important;
+    box-shadow: 0 0 10px rgba(173, 255, 47, 0.5) !important;
+    transform: scale(1.05) !important; 
+}
+
+.qKGAkzRGZQ9oo5pqwWwPX ._3KRFp3gRBC8QdMGGNoQKHx {
+	background: radial-gradient(ellipse farthest-corner at 20% 30%, rebeccapurple 0%, rebeccapurple 50%, rebeccapurple 100%);
+}
+
+.qKGAkzRGZQ9oo5pqwWwPX ._2qChhX-1VNjV6TirqRTAT6 {
+    background: radial-gradient(darkorchid, transparent);
+}
+
+.f6hU22EA7Z8peFWZVBJU {
+	font-family: 'Russo' !important;
+}
+
+._2Cap9kDsIiQhd0jROKcZh1 {
+	border-radius: 6px;
+    background: rgb(35 25 37 / 78%);
+}
+
+._3yQg8ImDrqj78xIoWem3m5 {
+	background: none !important;
+}
+
+:where(._2gL71Yq-HzVI9oOGyWu3jH) {
+	background: linear-gradient(to top, rebeccapurple 0%, purple 100%) !important;
+	background-color: unset;
+	border-radius: 6px !important;
+}
+
+._20oF9tLSfptitLraDOp6X6[data-selected=true] {
+	background: mediumpurple;
+}
+
+.wCPKWvwCOuo-4mHzhEcBW {
+	background: greenyellow;
 }
