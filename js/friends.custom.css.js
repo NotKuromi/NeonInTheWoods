@@ -5,10 +5,12 @@
 
 // Конфигурация
 const ANIMATION_CONFIG = {
+/*
     groupTranslate: '8px',
     friendTranslate: '5px',
-    groupBgHover: 'rgba(102, 51, 153, 0.5)',
-    friendBgHover: 'rgba(255, 255, 255, 0.1)',
+*/
+    groupBgHover: 'rgba(139, 0, 139, 0.45)',
+    friendBgHover: 'rgba(255, 0, 255, 0.10)',
     transitionSpeed: '0.3s',
     visibleFriends: 50, // Количество одновременно видимых друзей
     prerender: 10 // Дополнительные элементы для плавного скролла
@@ -67,8 +69,7 @@ function initializeFriendsUI() {
         }
         
         .friendGroup:hover {
-            transform: translateX(${ANIMATION_CONFIG.groupTranslate}) !important;
-            background: ${ANIMATION_CONFIG.groupBgHover} !important;
+    background: ${ANIMATION_CONFIG.groupBgHover} !important;
         }
         
         .friendGroup:hover::before {
@@ -103,17 +104,21 @@ function initializeFriendsUI() {
         }
         
         .friend:hover {
-            transform: translateX(${ANIMATION_CONFIG.friendTranslate}) !important;
-            background: ${ANIMATION_CONFIG.friendBgHover} !important;
+    background: ${ANIMATION_CONFIG.friendBgHover} !important;
         }
         
+		@keyframes millennium-nod {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50%      { transform: translateY(-2px) rotate(-4deg); }
+        }
+
         .friendStatus {
-            transition: transform ${ANIMATION_CONFIG.transitionSpeed} ease !important;
             will-change: transform;
+    transform-origin: center center;
         }
         
         .friend:hover .friendStatus {
-            transform: scale(1.2) !important;
+            animation: millennium-nod 1s ease-in-out infinite !important;
         }
         
         /* ВИРТУАЛИЗАЦИЯ СПИСКА */
