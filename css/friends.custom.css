@@ -273,7 +273,7 @@ body {
 }
 
 .chatHistoryScroll {
-    padding-top: 40px;
+    padding-top: 20px;
     background: transparent !important;
 }
 
@@ -407,7 +407,7 @@ body {
 .friendsui-container .SVGIcon_Button.SVGIcon_TextRoom,
 .friendsui-container .SVGIcon_VoiceRoom,
 .friendsui-container .SVGIcon_Button.SVGIcon_VoiceRoom {
-    color: var(--n-mediumpurple) !important;
+    color: var(--n-green) !important;
 }
 
 /* убираем лишние тени */
@@ -628,4 +628,121 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 .DesktopUI .title-area-icon.closeButton:hover, .friendsui-container .title-area-icon.closeButton:hover {
 	border-radius: 0 6px 0 0;
+}
+
+/* Иконки платформ в списке друзей и в чате */
+.KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_SteamDeck path, .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_VRIcon path, .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_MobilePhone path, .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_BigPicture path {
+    fill: var(--n-green) !important;
+    color: var(--n-green) !important;
+}
+
+.ChatRoomSpeaker .speaker .speakerStatus, .ChatMsgSlashEmote .speaker .speakerStatus {
+	background-color: var(--n-mediumpurple);
+}
+
+.chatRoomTextChannel.ActiveTextChannel {
+	background-color: var(--n-purple);
+}
+
+.chatRoomVoiceChannelsGroup, .chatRoomTextChannelsGroup {
+	color: var(--n-green);
+}
+
+.chatRoomButton .SVGIcon_Button {
+	fill: var(--n-green);
+}
+
+.statMembersOnline {
+	color: var(--n-green);
+}
+
+.statMembersOnline .statCircle {
+    background-color: var(--n-green);
+}
+
+.statMembersInGame {
+	color: var(--n-orange);
+}
+
+.statMembersInGame .statCircle {
+    background-color: var(--n-orange);
+}
+
+.inviteAnotherFriendButton .SVGIcon_Button line, .chatRoomButton .SVGIcon_Button line {
+	stroke: var(--n-green);
+}
+
+.chatRoomVoiceChannel:not(.ActiveVoiceChannel):hover {
+	background-color: var(--n-bg-deep);
+}
+
+.chatRoomVoiceChannel.ActiveVoiceChannel {
+	background-color: var(--n-rebecca) !important;
+}
+
+.VoiceIconCtn {
+	color: var(--n-green);
+}
+
+.ActiveTextChannel .chatRoomTextChannelName.IsCommonsChannel, .ActiveVoiceChannel .chatRoomVoiceChannelName {
+	color: var(--n-green);
+}
+
+.chatRoomVoiceChannel .chatRoomTextChannel:hover {
+	background-color: var(--n-bg-raised);
+}
+
+.friendsui-container .SVGIcon_ScratchPad, .friendsui-container .SVGIcon_Button.SVGIcon_ScratchPad {
+	color: var(--n-green);
+}
+
+.friendListHeaderContainer .activeVoiceControls:before {
+	background: radial-gradient(ellipse farthest-corner at 24px 10px, rgb(208 91 245 / 30%) 0%, rgb(173 91 245 / 26%) 25%, rgb(180 91 245 / 22%) 34%, rgb(244 91 245 / 10%) 50%, rgb(245 91 232 / 0%) 70%);
+}
+
+.activeVoiceControls {
+	background: rgb(219 66 228 / 12%);
+    border-top: 1px solid #ac78db;
+    border-bottom: 1px solid #c778db;
+    border-image: linear-gradient(to right, rgb(255 78 250 / 80%) 0%, rgb(209 120 219 / 25%) 50%, rgb(186 120 219 / 15%) 100%) 100% 1;
+}
+
+.activeVoiceLabels .activeVoiceHeader {
+	color: var(--n-green);
+}
+
+.activeVoiceLabels .activeVoiceName {
+	color: var(--n-magenta);
+}
+
+.VoiceControlPanelButton:focus, .VoiceControlPanelButton:hover {
+	border-radius: 6px;
+    background-color: var(--n-magenta);
+}
+
+.VoiceToggle.Active svg {
+	color: var(--n-green);
+}
+
+.VoiceToggle.Active {
+	border: 1px solid #551b63;
+	border-inline-end: none;
+    border-bottom: none;
+}
+
+.ChatMessageEntryVoice {
+	background: linear-gradient(135deg, var(--n-rebecca), var(--n-purple)) !important;
+}
+
+.VoiceRoomChatTitle {
+	background-color: var(--n-rebecca);
+}
+
+.VoiceRoomChatWindow {
+	border: 1px solid var(--n-mediumpurple);
+    background-color: var(--n-bg);
+}
+
+.VoiceChatTextChannelDesc {
+	background: linear-gradient(to bottom, rgb(43 2 59 / 80%) 0%, rgb(61 1 71 / 50%) 50%, rgb(45 1 53 / 0%) 100%);
 }
